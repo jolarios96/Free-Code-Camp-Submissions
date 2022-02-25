@@ -1,0 +1,55 @@
+:root {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  width: 100%;
+  }
+
+header {
+  text-align: center;
+}
+
+
+footer {
+  padding-left: 20px;
+  margin: 100px 0 0 0;
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+}
+
+.grey-bg {
+  background-color: #E7E9EB;
+}
+
+.center-image {
+  display: block;
+  margin: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+#title {
+  margin: auto;
+}
+
+#main-wrapper {
+  padding: 20px;
+}
