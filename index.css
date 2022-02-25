@@ -33,7 +33,7 @@ main {
   width: 100%;
 }
 
-.grey-bg {
+.bg-grey {
   background-color: #E7E9EB;
 }
 
@@ -46,10 +46,27 @@ main {
   text-align: center;
 }
 
-#title {
-  margin: auto;
+
+.no-bullets {
+    list-style-type: none;
 }
 
-#main-wrapper {
-  padding: 20px;
+.clear-padding {
+    padding: 0;
+}
+
+.content-wrapper {
+    margin: 20px 0 20px 0;
+}
+
+.content-header {
+    padding: 10px 0 0 20px;
+}
+
+.content {
+    padding-left: 30px;
+}
+
+#title {
+  margin: auto;
 }
