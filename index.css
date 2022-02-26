@@ -1,14 +1,9 @@
 :root {
-  /* background: linear-gradient( #4971AD, #f09620 60%, #4971AD); */
   background: linear-gradient( #4971ad, rgb(224, 224, 224));
-  /* background-color: white; */
-  /* background-image: url("https://sfassets-production.s3.amazonaws.com/media_cache/images/9a62b3f4-e876-e711-9448-0ad9f5e1f797/hero_screenshot/castle_hires_3.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat-y; */
-  /* background-color: #627696; */
   margin: 0;
   padding: 0;
+
+  font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 html {
