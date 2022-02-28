@@ -114,60 +114,29 @@ hr {
 
 #logo {
   position: relative;
-  top: -80px;
+  top: -90px;
   left: 10px; 
   height: 70px;
   width: auto;
 }
 
-@media (max-width: 356px){
-  .main-image {
-    height: auto;
-    width: 100%;
-  }
+
+#title {
+  margin: 0;
+  padding: 5px;
+  height: 80px;
+  /* background-color: transparent */
 }
 
-@media (max-width: 555px){
-  #logo {
-    display: none;
-  }
-}
-
-@media(max-width: 600px){
-  body {
-    width: 100%;
-  }
-
-  .main-image {
-    height: auto;
-    width: 100%;
-  }
-  
-  .banner-image-wrapper {
-    display: none;
-  }
-}
-
-@media (max-width: 1079px){
-  .banner-set-1 {
-    width: 50%;
-    height: 50%;
-    float: left;
-  }
-  .banner-set-2 {
-    width: 50%;
-    height: 50%;
-    float: left;
-  }
-  .banner-set-3 {
-    display:none;
-  }
+#title a, #title a:link, #title a:visited, #title a:active{
+  text-decoration: none;
+  color: white;
 }
 
 .title-text {
   font-family: 'Roboto Serif', Helvetica, sans-serif;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.493);
-  margin: 34.44px 0 9.44px 0;
+  margin: 30px 0 30px 0;
   font-size: 36px;
   text-align: center;
 }
@@ -186,6 +155,10 @@ hr {
     margin: 0;
 }
 
+.content {
+  margin: 0 40px 0 40px;
+}
+
 .border-round {
   border-radius: 25px;
 }
@@ -198,7 +171,7 @@ hr {
   padding-left: 20px;
 }
 
-.split {
+.footer-split {
   width: 50%;
   float: left;
 }
@@ -220,9 +193,50 @@ li {
     overflow: auto;
 }
 
-#title {
-  margin: 0 0 10px 0;
-  padding: 5px;
-  height: 80px;
-  background-color: transparent
+
+@media (max-width: 324px){
+  .title-text {
+    margin: 0;
+  }
+}
+
+@media (max-width: 669px){
+  #logo {
+    display: none;
+  }
+}
+
+@media(max-width: 600px){
+  body {
+    width: 100%;
+  }
+
+  .main-image {
+    height: auto;
+    width: 100%;
+  }
+
+  .main-image:hover {
+    transform: none;
+  }
+  
+  .banner-image-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 1079px){
+  .banner-set-1 {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+  .banner-set-2 {
+    width: 50%;
+    height: 50%;
+    float: left;
+  }
+  .banner-set-3 {
+    display:none;
+  }
 }
