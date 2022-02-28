@@ -52,30 +52,6 @@ hr {
   color: white;
 }
 
-.box-1 {
-  width: calc(100%/3);
-  height: 50%;
-
-  background-color: yellow;
-  float: left;
-}
-
-.box-2 {
-  width: 50%;
-  height: 50%;
-
-  background-color: blue;
-  float: right;
-}
-
-.box-3 {
-  width: 50%;
-  height: 50%;
-
-  background-color: green;
-  float: right;
-}
-
 .banner-image-wrapper {
   width: calc(100% - 320px);
   height: 400px;
@@ -152,16 +128,6 @@ hr {
   .banner-image-wrapper {
     display: none;
   }
-
-  /* .banner-set-1 {
-    display: none;
-  }
-  .banner-set-2 {
-    display: none;
-  }
-  .banner-set-3 {
-    display: none;
-  } */
 }
 
 @media (max-width: 1079px){
