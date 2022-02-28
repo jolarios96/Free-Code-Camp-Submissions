@@ -1,5 +1,5 @@
 :root {
-  background: linear-gradient( #4971ad, rgb(224, 224, 224));
+  background: linear-gradient( #497dad, rgb(224, 224, 224));
   margin: 0;
   padding: 0;
 
@@ -20,7 +20,7 @@ body {
 footer {
   margin: 20px 0 0 0;
   padding: 10px 0 10px 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 footer .wrapper{
@@ -127,7 +127,7 @@ hr {
 }
 
 @media (max-width: 356px){
-  .center-image {
+  .main-image {
     height: auto;
     width: 100%;
   }
@@ -144,17 +144,24 @@ hr {
     width: 100%;
   }
 
-  .banner-set-1 {
+  .main-image {
+    height: auto;
     width: 100%;
-    height: 50%;
-    float: left;
+  }
+  
+  .banner-image-wrapper {
+    display: none;
+  }
+
+  /* .banner-set-1 {
+    display: none;
   }
   .banner-set-2 {
-    display:none;
+    display: none;
   }
   .banner-set-3 {
-    display:none;
-  }
+    display: none;
+  } */
 }
 
 @media (max-width: 1079px){
@@ -191,6 +198,15 @@ hr {
     margin: 0;
 }
 
+.border-round {
+  border-radius: 25px;
+}
+
+.footer-border {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
 .indent-2{
   padding-left: 40px;
 }
@@ -225,4 +241,5 @@ li {
   margin: 0 0 10px 0;
   padding: 5px;
   height: 80px;
+  background-color: transparent
 }
