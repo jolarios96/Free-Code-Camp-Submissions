@@ -22,6 +22,14 @@ footer {
   padding: 10px 0 10px 0;
 }
 
+footer h3 {
+  margin: 12px 0 12px 0;
+}
+
+footer ul {
+  margin: 10px 0 10px 0;
+}
+
 footer .wrapper{
   width: 50%;
 }
@@ -173,6 +181,7 @@ hr {
 
 .footer-split {
   width: 50%;
+  margin-bottom: 16px;
   float: left;
 }
 
