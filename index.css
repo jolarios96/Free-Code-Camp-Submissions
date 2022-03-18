@@ -58,7 +58,7 @@ body {
     width: 320px;
     transition: 0.25s;
 }
-.banner-main-image:hover {
+.banner-main-image:hover, #banner a:focus{
     transform: scale(110%);
 }
 .banner-image-wrapper {
@@ -73,7 +73,7 @@ body {
     height: 100%;
     transition: 0.25s;
 }
-.banner-image:hover {
+.banner-image:hover, .banner-image-wrapper a:focus {
     transform: scale(110%);
 }
 .banner-footer{
@@ -159,7 +159,7 @@ a {
 a:visited {
     color: rgb(117, 204, 255);
 }
-a:hover {
+a:hover, a:focus {
     color: white;
 }
 
