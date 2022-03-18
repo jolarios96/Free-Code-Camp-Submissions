@@ -125,7 +125,9 @@ footer {
     grid-area: "image-ref";
 }
 
-
+hr {
+    color: whitesmoke;
+}
 .bg-blue {
     background-color: #4971ad;
     color: white;
