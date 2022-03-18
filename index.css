@@ -101,7 +101,6 @@ main {
     overflow: hidden;
 }
 
-
 footer {
     grid-area: "footer";
 
@@ -142,6 +141,11 @@ hr {
 }
 .indent {
     padding-left: 20px;
+}
+
+
+p {
+    font-size: 18px;
 }
 
 ul {
