@@ -17,12 +17,6 @@ body {
     margin: auto;
     padding: 0;
     display: grid;
-
-    grid-template-areas:
-        "header"
-        "main"
-        "footer";
-
 }
 
 hr {
@@ -67,7 +61,7 @@ a:hover, a:focus {
 
 #header {
     grid-area: "header";
-    padding: 10px;
+    padding: 20px;
     padding-left: 0px;
     background-color: #527ab6;
 }
@@ -99,10 +93,11 @@ a:hover, a:focus {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.05);
 }
-.banner-main-img {
-    height: 494px;
-    width: auto;
-    vertical-align: bottom;
+#image {
+    max-height: 494px;
+    max-width: 396.9px;
+    display: block;
+    margin: 0 auto;
     transition: 0.25s;
 }
 #img-caption{
